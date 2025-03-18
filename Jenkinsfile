@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID = 'astute-tome-349713'
+        PROJECT_ID = 'starry-iris-451918-i9'
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credential
     }
 
